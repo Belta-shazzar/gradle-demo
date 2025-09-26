@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gradle-demo_nasa-apod-service
+
+logging:
+  level:
+    com.example.nasaapod: DEBUG
+    org.springframework.web.reactive.function.client: DEBUG
+
+application:
+  nasa:
+    apod:
+      url: https://api.nasa.gov/planetary/apod
