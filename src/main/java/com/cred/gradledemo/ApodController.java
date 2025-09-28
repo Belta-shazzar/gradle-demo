@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequiredArgsConstructor
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/apod")
 public class ApodController {
   private final ApodService nasaApodService;
